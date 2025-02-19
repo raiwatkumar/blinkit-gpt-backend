@@ -67,7 +67,7 @@ async function processTask() {
     productContainer.style.display = "none";
 
     try {
-        const response = await fetch("http://127.0.0.1:8000/process-request/", {
+        const response = await fetch("https://blinkit-gpt-backend.onrender.com/process-request/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
