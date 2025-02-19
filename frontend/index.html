@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinkit GPT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class="nav-logo">
+            <img src="../assets/Blinkit Logo.png" alt="Blinkit GPT">
+        </div>
+        <div class="delivery-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Deliver to: Delhi, India</span>
+            <span class="time">10 mins</span>
+        </div>
+    </nav>
+
+    <!-- Add this right after the nav-bar -->
+    <!-- <div class="welcome-overlay" id="welcomeOverlay">
+        <div class="welcome-box">
+            <h2>👋 Try Blinkit GPT</h2>
+            <p>Your AI-powered grocery assistant</p>
+            <button class="try-button" onclick="startGPT()">
+                Get Started
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div> -->
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="welcome-banner">
+            <h1>Groceries delivered in <span class="highlight">10 minutes</span></h1>
+            <p>Your everyday needs solved by AI</p>
+        </div>
+
+        <a href="search.html" class="feature-box">
+            <div class="feature-content">
+                <h3>Meet blink<span>it GPT</span> – Your Instant Shopping Assistant</h3>
+                <p>Chat, shop, and get what you need in seconds.</p>
+                <div class="start-button">
+                    Get Started <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </a>
+        
+        <!-- Search Section -->
+        <!-- <div class="search-container">
+            <button onclick="goBack()" class="back-button" id="backButton" style="display: none;">
+                <i class="fas fa-arrow-left"></i>
+                Back
+            </button> -->
+            <!-- <div class="search-interface" id="searchInterface" style="display: none;">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="taskInput" placeholder="Ask about groceries...">
+                <button onclick="processTask()">Ask</button>
+            </div>
+            <div class="prompt-suggestions" id="promptSuggestions" style="display: none;">
+                <p class="suggestion-title">Try these prompts:</p>
+                <div class="suggestion-items">
+                    <div class="suggestion-item" onclick="usePrompt(this.textContent)">
+                        "I want to make butter chicken, what ingredients do I need?"
+                    </div>
+                    <div class="suggestion-item" onclick="usePrompt(this.textContent)">
+                        "Show me items for making biryani"
+                    </div>
+                    <div class="suggestion-item" onclick="usePrompt(this.textContent)">
+                        "What do I need for making masala dosa?"
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Items Display -->
+        <!-- <div class="items-display" id="itemsDisplay"> -->
+            <!-- Items will be shown here -->
+        <!-- </div> -->
+
+        <!-- Product Section -->
+        <!-- <div class="product-container" id="productContainer">
+             Product cards will be added here -->
+        <!-- </div> -->
+        
+        <!-- Quick Links -->
+        <div class="quick-links">
+            <div class="quick-link">
+                <i class="fas fa-carrot"></i>
+                <span>Vegetables</span>
+            </div>
+            <div class="quick-link">
+                <i class="fas fa-apple-alt"></i>
+                <span>Fruits</span>
+            </div>
+            <div class="quick-link">
+                <i class="fas fa-egg"></i>
+                <span>Dairy</span>
+            </div>
+            <div class="quick-link">
+                <i class="fas fa-cookie"></i>
+                <span>Snacks</span>
+            </div>
+            <div class="quick-link">
+                <i class="fas fa-wine-bottle"></i>
+                <span>Beverages</span>
+            </div>
+        </div>
+
+        <!-- Offers Banner -->
+        <div class="offers-banner">
+            <div class="offer-card">
+                <i class="fas fa-percent"></i>
+                <h3>50% OFF</h3>
+                <p>on first order</p>
+            </div>
+            <div class="offer-card">
+                <i class="fas fa-truck"></i>
+                <h3>Free Delivery</h3>
+                <p>on orders above ₹199</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Get to Know Us</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect with Us</h4>
+                <div class="social-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <li>Sell on Blinkit</li>
+                    <li>Partner with Us</li>
+                    <li>Advertise</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Download App</h4>
+                <div class="app-links">
+                    <i class="fab fa-google-play"></i>
+                    <i class="fab fa-apple"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Blinkit GPT. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./static/script.js"></script>
+</body>
+</html>
